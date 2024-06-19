@@ -1,7 +1,11 @@
 import time
+from os import system
 from subprocess import call
 from colorama import Fore, Style
 
+clear()
+
+print("\n\n")
 print(" ______ _______  _____   _        _____  ")
 print("|  ___| | |_| | |  ___| | |      |  ___| ")
 print("| |___  |  _  | | |     | |      | |___  ")
@@ -9,7 +13,6 @@ print("|  ___| | | | | | |     | |      |  ___| ")
 print("| |___  | | | | | |__|| | |____  | |___  ")
 print("|_____| |_| |_| |_____| |______| |_____| ")
 
-print("\n\n")
 
 def show_loading_screen():
     print("======================================")
@@ -30,6 +33,7 @@ def show_loading_screen():
 
 show_loading_screen()
 
+clear()
 
 # Laat login systeem runnen
 # -------------------------
@@ -41,6 +45,5 @@ open_py_file()
 
 # -------------------------
 
-
-
 print("\nTest\n")
+
