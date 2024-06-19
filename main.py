@@ -1,4 +1,5 @@
 import time
+from subprocess import call
 
 print(" ______ _______  _____   _        _____  ")
 print("|  ___| | |_| | |  ___| | |      |  ___| ")
@@ -21,7 +22,14 @@ print("System succesfully started.")
 
 print("\nWelcome to Eagle OS 2.2!\n\n")
 
-loginchoice = input("test")
+# Laat login systeem runnen
+# -------------------------
 
+def open_py_file():
+    call(["python", "Database/login.py"])
 
+open_py_file()
 
+# -------------------------
+
+print("\nTest\n")

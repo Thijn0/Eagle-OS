@@ -1,1 +1,2 @@
-john, 123EagleOSadmin, EagleOS9
+john, 123
+EagleOSAdmin, EagleOS0
