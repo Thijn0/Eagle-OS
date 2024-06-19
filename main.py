@@ -3,7 +3,6 @@ from os import system
 from subprocess import call
 from colorama import Fore, Style
 
-clear()
 
 print("\n\n")
 print(" ______ _______  _____   _        _____  ")
