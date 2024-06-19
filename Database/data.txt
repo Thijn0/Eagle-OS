@@ -1,2 +1,2 @@
 john, 123
-EagleOSAdmin, EagleOS0
+eagleosadmin, eagle0

@@ -1,5 +1,6 @@
 import time
 from subprocess import call
+from colorama import Fore, Style
 
 print(" ______ _______  _____   _        _____  ")
 print("|  ___| | |_| | |  ___| | |      |  ___| ")
@@ -8,19 +9,27 @@ print("|  ___| | | | | | |     | |      |  ___| ")
 print("| |___  | | | | | |__|| | |____  | |___  ")
 print("|_____| |_| |_| |_____| |______| |_____| ")
 
-print("\nLoading")
-print(".")
-time.sleep(1)
-print("..")
-time.sleep(1)
-print("...")
-time.sleep(1)
-print("....")
-print(".....")
-time.sleep(2)
-print("System succesfully started.")
+print("\n\n")
 
-print("\nWelcome to Eagle OS 2.2!\n\n")
+def show_loading_screen():
+    print("======================================")
+    print(Fore.WHITE + "Welcome To Eagle OS | Terminal | 3.0.0")
+    print("======================================\n")
+    width = 40
+    total = 100
+    interval = total / width
+    for i in range(width + 1):
+        progress = int(i * interval)
+        bar = '█' * i
+        stars = '-' * (width - i)
+        loading_text = f"[{bar}{stars}] {progress}%"
+        print(Fore.WHITE + loading_text, end='\r')
+        time.sleep(0.1)
+    print(Style.RESET_ALL)
+    print("\n\n")
+
+show_loading_screen()
+
 
 # Laat login systeem runnen
 # -------------------------
@@ -31,5 +40,7 @@ def open_py_file():
 open_py_file()
 
 # -------------------------
+
+
 
 print("\nTest\n")
