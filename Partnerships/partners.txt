@@ -1,0 +1,10 @@
+PARTNERS:
+Muziekpartners: Soundcloud (tot 2030), Spotify (tot 1 Juli 2024)
+Streamingpartners: YouTube (tot 30 Juni 2024 )
+Eatingpartners: McDonalds (Deal unvalid), UberEats (tot 1 Januari 2028)
+Sportpartners: -
+Betpartners: -
+Own app: NumberGuess, Weather, notepad, Calculator (new features Eaglemail, EagleMusic, EagleSports)
+Chatpartners: Gmail, Whatsapp (Coming soon: EagleMail)
+Online shops: Amazon
+Bank systems: EagleBank, Crypto
