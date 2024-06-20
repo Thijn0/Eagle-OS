@@ -68,11 +68,11 @@ def access():
 def home(option=None):
     print("=== Login <|> Register ===\n")
     option = input("> ")
-    if option == "Login":
+    if option == "Login" or "login":
         access()
-    elif option == "Register":
+    elif option == "Register" or "register":
         register()
     else:
-        print("Please enter an option.")
+        print("Please enter an option.\n")
         home()
 home()
