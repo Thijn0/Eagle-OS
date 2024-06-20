@@ -1,4 +1,4 @@
-entrypoint = "starting.py"
+entrypoint = "CSS/starting.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "starting.py"]
+run = ["python3", "CSS/starting.py"]
 deploymentTarget = "cloudrun"

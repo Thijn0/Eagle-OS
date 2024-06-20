@@ -27,7 +27,7 @@ clear()
 
 
 def open_py2_file():
-    call(["python", "main.py"])
+    call(["python", "CSS/main.py"])
 
 open_py2_file()
 

@@ -41,9 +41,12 @@ def open_py_file():
     call(["python", "Database/login.py"])
 
 open_py_file()
-
 # -------------------------
 
+
+# -------------------------
+#           MENU 
+# -------------------------
 print("\n===== MENU =====\n")
 
 
