@@ -1,2 +1,3 @@
 john, 123
 eagleosadmin, admin
+thijn, wachtwoordvanthijn

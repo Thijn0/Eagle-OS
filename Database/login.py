@@ -1,3 +1,4 @@
+
 def register():
     db = open("Database/data.txt", "r")
     username = input("Create Username: ")
@@ -47,7 +48,7 @@ def access():
          if data [username]:
             try:
                 if password == data[username]:
-                    print("\nLogin Succesfull! Welcome back,", username)
+                    print("\nLogged in as:", username)
                 else:
                     print("Username or Password incorrect.")
                     home()
@@ -68,9 +69,9 @@ def access():
 def home(option=None):
     print("=== Login <|> Register ===\n")
     option = input("> ")
-    if option == "Login" or "login":
+    if option == "Login" or option == "login":
         access()
-    elif option == "Register" or "register":
+    elif option == "Register" or option == "register":
         register()
     else:
         print("Please enter an option.\n")

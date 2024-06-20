@@ -49,8 +49,8 @@ open_py_file()
 # -------------------------
 print("\n===== MENU =====\n")
 
-print(Fore.GREEN + "1. Settings     2. Applications")
-print(Fore.BLUE + "3. Mail         4. Browser     ")
-print(Fore.RED + "5. Bank         6. About       ")
+print(Fore.GREEN + "1. Settings       " + Fore.YELLOW + "2. Applications")
+print(Fore.BLUE + "3. Mail           " + Fore.RED    + "4. Browser     ")
+print(Fore.RED + "5. Bank           " + Fore.GREEN  + "6. About       ")
 
 choice = input(Fore.WHITE + "\n> ")
