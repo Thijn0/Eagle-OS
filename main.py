@@ -16,9 +16,9 @@ print("|_____| |_| |_| |_____| |______| |_____| ")
 
 
 def show_loading_screen():
-    print("======================================")
+    print("=======================================")
     print(Fore.WHITE + "Welcome To Eagle OS | Terminal | 3.0.0")
-    print("======================================\n")
+    print("=======================================\n")
     width = 40
     total = 100
     interval = total / width
