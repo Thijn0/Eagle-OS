@@ -1,6 +1,5 @@
 import time
 from os import system
-from colorama import Fore, Style
 from subprocess import call
 
 def clear():
@@ -25,6 +24,7 @@ time.sleep(0.5)
 print("CPU: OK")
 time.sleep(0.5)
 clear()
+
 
 def open_py2_file():
     call(["python", "main.py"])

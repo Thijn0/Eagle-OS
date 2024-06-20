@@ -42,6 +42,6 @@ open_py_file()
 
 # -------------------------
 
-print("\nWelcome!\n")
+print("\n===== MENU =====\n")
 
 
