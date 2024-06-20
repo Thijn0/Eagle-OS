@@ -47,13 +47,8 @@ open_py_file()
 # -------------------------
 #           MENU 
 # -------------------------
-print("\n===== MENU =====\n")
 
-print(Fore.GREEN + "1. Settings       " + Fore.YELLOW + "2. Applications")
-print(Fore.BLUE + "3. Mail           " + Fore.RED    + "4. Browser     ")
-print(Fore.RED + "5. Bank           " + Fore.GREEN  + "6. About       ")
+def open_py_filemenu():
+    call(["python", "CSS/menu.py"])
 
-choice = input(Fore.WHITE + "\n> ")
-
-if choice == "1":
-    pass
+open_py_filemenu()
