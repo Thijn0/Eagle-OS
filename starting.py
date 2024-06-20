@@ -1,7 +1,7 @@
 import time
 from os import system
-from subprocess import call
 from colorama import Fore, Style
+from subprocess import call
 
 def clear():
     system('clear')
@@ -18,22 +18,16 @@ time.sleep(2)
 
 print("Checking System...")
 time.sleep(1)
+time.sleep(0.8)
+clear()
 print("RAM: OK")
 time.sleep(0.5)
 print("CPU: OK")
 time.sleep(0.5)
 clear()
 
-print("Enter BIOS?")
-print("1: Yes")
-print("2: No\n")
+def open_py2_file():
+    call(["python", "main.py"])
 
-bios = input("")
+open_py2_file()
 
-if bios == "1":
-    exec(open("BIOS.py").read())
-
-else:
-    exec(open("main.py").read())
-
-clear()

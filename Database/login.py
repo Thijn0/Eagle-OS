@@ -51,15 +51,20 @@ def access():
                     print("Welcome back," , username)
                 else:
                     print("Username or Password incorrect.")
+                    home()
 
             except:
-                print("Incorrect password or username.")          
+                print("Incorrect password or username.")
+                home()
          else:
-              print("Username doesn't exist.") 
+              print("Username doesn't exist.")
+              home()
       except:
           print("Login Error.")
+          home()
     else:
       print("Please enter a value.")
+      home()
 
 def home(option=None):
     option = input("Login | Register: ")

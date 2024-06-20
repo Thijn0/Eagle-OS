@@ -32,8 +32,6 @@ def show_loading_screen():
 
 show_loading_screen()
 
-clear()
-
 # Laat login systeem runnen
 # -------------------------
 
@@ -44,5 +42,6 @@ open_py_file()
 
 # -------------------------
 
-print("\nTest\n")
+print("\nWelcome!\n")
+
 
