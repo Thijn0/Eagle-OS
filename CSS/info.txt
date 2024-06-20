@@ -1,0 +1,4 @@
+[CSS] Core System Software
+
+Scripts in this map are the heart of the system.
+Be carefull changing things here.
