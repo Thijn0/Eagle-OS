@@ -54,3 +54,6 @@ print(Fore.BLUE + "3. Mail           " + Fore.RED    + "4. Browser     ")
 print(Fore.RED + "5. Bank           " + Fore.GREEN  + "6. About       ")
 
 choice = input(Fore.WHITE + "\n> ")
+
+if choice == "1":
+    pass
