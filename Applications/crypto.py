@@ -5,8 +5,9 @@ print("Welcome to this crypto platform.")
 user_name = input("Username: ")
 password = input("Password: ")
 print("Hi " + user_name)
+print("NOTE: Crytpo is outdated in version 2.2")
 print("Wich activity would you like to do? ")
-print("NOTE: This edition of the system is outdated and in V.2.2")
+
 activity = input("\n>Watch Course\n>Buy Crypto\n\n>")
 if activity == "Watch Course":
   print("\nBitcoin:")

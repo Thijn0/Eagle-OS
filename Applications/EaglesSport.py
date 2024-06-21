@@ -1,6 +1,9 @@
+from os import PRIO_PGRP
+
+
 print("Welcome to EagleSport")
 print("What do you want to watch?")
-sportchoice = input("1. MLS, 2. NBA, 3. MLB, 4. Premier League, 5. Bundesliga,")
+sportchoice = input("1. MLS, 2. NBA, 3. MLB, 4. Premier League, 5. Bundesliga ")
 if sportchoice == "1":
   print("Loading MLS")
   print("You will be redirected to MLS")
@@ -12,4 +15,14 @@ elif sportchoice == "2":
 elif sportchoice == "3":
   print("Loading MLB")
   print("You will be redirected to MLB")
-  print("")
+  print("https://www.mlb.com/live-stream-games")
+elif sportchoice == "4":
+  print("Loading Premier League")
+  print("You will be redirected to Premier League")
+  print("https://www.premierleague.com/live")
+elif sportchoice == "5":
+  print("Loading Bundesliga")
+  print("You will be redirected to Bundesliga")
+  print("https://www.bundesliga.com/en/live")
+else:
+  print("Sorry, we don't have that sport.")
