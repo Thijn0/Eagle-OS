@@ -30,13 +30,15 @@ print("3. Deposit")
 print("4. Exit")
 print("============\n")
           
-coice = input("\n> ")
+choice = input("\n> ")
           
 if choice == "1":
   show_balance()
           
-elif choice == "2":
-  balance -= withdraw()
+elif choice == "2":  
+  if withdraw() is not None:
+    balance -= withdraw()
+    
           
 elif choice == "3":
   balance += deposit()

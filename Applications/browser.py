@@ -1,10 +1,11 @@
-from os import name
 import time
-print ("welcome to the EagleOS Browser" + name)
+from os import system
+
+print ("welcome to the EagleOS Browser")
 time.sleep (1)
 print("what do you want to search?")
 search = input("search: ")
-print("good choice" + name)
+print("good choice")
 print ("searching...")
 time.sleep (1)
 print("Loading...")
