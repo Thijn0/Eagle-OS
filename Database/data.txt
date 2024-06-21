@@ -1,5 +1,5 @@
 john, 123
-eagleosadmin, admin
-thijn, wachtwoordvanthijn
-TestRobotEOS, Encrypted
+admin, 123
+thijn, 0000
+TestRobotEOS, abcd09
 jits123, qwertyuiop

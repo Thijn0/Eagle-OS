@@ -1,3 +1,5 @@
+from moneysystem import balance
+
 print("Welcome to Amazon")
 print("What do you like to do")
 amazon = input("1. Buy, 2. Sell, 3. Return 4. Exit ")
@@ -12,4 +14,50 @@ if amazon == "1":
     if proceed == "Yes":
       print("Your order has been placed")
       print("Please select your paymethod")
-      paymethod = input("1. Card (VI, 3. Paypal")
+      paymethod = input("1. EagleBank")
+      if paymethod == "1":
+        pay = input("Click P to pay: ")
+        if pay == "P":
+          pass
+
+        else:
+          print("Payment not succeeded.")
+          pass
+
+
+    if proceed == "No":
+      print("Order canceled")
+  
+  if buyoption == "2":
+   print("Loading receipt")
+   receipt2 = ("$2,300")
+  print("Do you want to proceed the order?")
+  proceed = input("Yes or No ")
+  if proceed == "Yes":
+    print("Your order has been placed")
+    print("Please select your paymethod")
+    paymethod = input("1. EagleBank")
+    if paymethod == "1":
+      pay = input("Click P to pay: ")
+      if pay == "P":
+        pass
+      if proceed == "No":
+        print("Order canceled")
+  
+  if buyoption == "3":
+    print("Loading receipt")
+    receipt3 = ("$430")
+    print("Do you want to proceed the order?")
+    proceed = input("Yes or No ")
+    if proceed == "Yes":
+      print("Your order has been placed")
+      print("Please select your paymethod")
+      paymethod = input("1. EagleBank")
+      if paymethod == "1":
+        pay = input("Click P to pay: ")
+        if pay == "P":
+          pass
+      if proceed == "No":
+        print("Order canceled")
+      else:
+        print("Payment not succeeded.")
