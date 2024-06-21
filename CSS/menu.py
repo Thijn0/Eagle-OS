@@ -23,19 +23,29 @@ if choice == "1":
     open_pys_file()
 
 elif choice == "2":
-    print("Test2")
+    def open_pya_file():
+        call(["python", "CSS/apps.py"])
+    open_pya_file()
 
 elif choice == "3":
-    print("Test3")
+    def open_pym_file():
+        call(["python", "Applications/mail.py"])
+    open_pym_file()
 
 elif choice == "4":
-    print("Test4")
+    def open_pyb_file():
+        call(["python", "Applications/browser.py"])
+    open_pyb_file()
 
 elif choice == "5":
-    print("Test5")
+    def open_pybb_file():
+        call(["python", "Applications/moneysystem.py"])
+    open_pybb_file()
 
 elif choice == "6":
-    print("Test6")
+    def open_pyab_file():
+        call(["python", "Applications/about.py"])
+    open_pyab_file()
 
 else:
     print("Not valid.")
