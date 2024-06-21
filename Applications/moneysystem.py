@@ -1,3 +1,15 @@
+from subprocess import call
+from os import system
+import time
+
+# BETA SYSTEM, NEW UPDATED VERSION COMING SOON
+
+
+
+def clear():
+    system('clear')
+
+
 def show_balance():
   print(f"Your Balance = ${balance:.2f}")
 
@@ -34,18 +46,26 @@ choice = input("\n> ")
           
 if choice == "1":
   show_balance()
+  time.sleep(2)
+  call(["python", "CSS/menu.py"])
           
 elif choice == "2":  
   if withdraw() is not None:
     balance -= withdraw()
-    
+    time.sleep(2)
+    call(["python", "CSS/menu.py"])
           
 elif choice == "3":
   balance += deposit()
+  time.sleep(2)
+  call(["python", "CSS/menu.py"])
               
 elif choice == "4":
-  pass
+  call(["python", "CSS/menu.py"])
+  
           
 else:
   print("That is not a valid number.")
+  time.sleep(2)
+  call(["python", "CSS/menu.py"])
         
