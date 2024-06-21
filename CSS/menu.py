@@ -18,7 +18,9 @@ print(Fore.RED + "5. Bank           " + Fore.GREEN  + "6. About       ")
 choice = input(Fore.WHITE + "\n> ")
 
 if choice == "1":
-    print("Test1")
+    def open_pys_file():
+        call(["python", "Applications/settings.py"])
+    open_pys_file()
 
 elif choice == "2":
     print("Test2")

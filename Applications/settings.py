@@ -1,11 +1,17 @@
+from subprocess import call
+
 print("[===] Settings [===]")
 
-print("1. Update")
+print("\nYou're up to date.")
+print("\n\n Version: 3.0.0")
+print("--------------")
+input2 = input("Press Q to go back to menu...\n\n")
+
+if input2 == "q" or "Q":
+  def open_pym_file():
+      call(["python", "CSS/menu.py"])
+  open_pym_file()
 
 
-setting = input("\n> ")
-
-if input == "1":
-  print("You're up to date.")
-  print("\n\n Version: 3.0.0")
-  print("--------------")
+else:
+  pass
