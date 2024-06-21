@@ -9,9 +9,9 @@ print("good choice")
 print ("searching...")
 time.sleep (1)
 print("Loading...")
-if search == "YouTube":
+if search == "Youtube" or "youtube":
   print("https://www.youtube.com/")
-elif search == "Google":
+elif search == "Google" or "google":
   print("https://www.google.com/")
 elif search == "Spotify":
   print("https://open.spotify.com/")
