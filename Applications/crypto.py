@@ -1,4 +1,6 @@
-import balance
+from moneysystem import balance
+from colorama import Fore, Style
+
 print("Welcome to this crypto platform.")
 user_name = input("Username: ")
 password = input("Password: ")
@@ -6,7 +8,7 @@ print("Hi " + user_name)
 print("Wich activity would you like to do? ")
 print("NOTE: This edition of the system is outdated and in V.2.2")
 activity = input("\n>Watch Course\n>Buy Crypto\n\n>")
-if activity == "Watch Chart":
+if activity == "Watch Course":
   print("\nBitcoin:")
   print(Fore.GREEN + "Bitcoin: +0,37%"	)
 
@@ -33,7 +35,7 @@ elif activity == "Buy Crypto":
     time.sleep(1)
     print("******")
     print("You succesfully bought " + number + " Bitcoins.")
-    print("Your Balance" + balance)
+    print("your balance is", balance)
     
 
   elif crypto == "Dogecoin":
@@ -47,6 +49,7 @@ elif activity == "Buy Crypto":
     time.sleep(1)
     print("******")
     print("You succesfully bought " + number + " Dogecoins.")
+    print("your balance is", balance)
 
   elif crypto == "Ethereum":
     number = input("How many Ethereums do you want to buy? ")
@@ -59,6 +62,7 @@ elif activity == "Buy Crypto":
     time.sleep(1)
     print("******")
     print("You succesfully bought " + number + " Ethereums.")
+    print("your balance is", balance)
 
   else:
     print("Sorry we don't have that crypto.")
