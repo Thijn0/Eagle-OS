@@ -1,5 +1,7 @@
 import time
 
+# NEEDS CONNECTIONS | WIP by Thijn
+
 
 print ("chose your application")
 application = input("1. EagleSport, 2. EagleMusic, 3. Mc Donalds, 4. Crypto ")

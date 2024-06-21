@@ -9,11 +9,11 @@ def clear():
 clear()
 
 
-print("\n===== MENU =====\n")
+print("\n    [=====] MENU [=====]\n")
 
-print(Fore.GREEN + "1. Settings       " + Fore.YELLOW + "2. Applications")
-print(Fore.BLUE + "3. Mail           " + Fore.RED    + "4. Browser     ")
-print(Fore.RED + "5. Bank           " + Fore.GREEN  + "6. About       ")
+print(Fore.GREEN + "1. Settings       " + Fore.BLUE + "2. Applications")
+print(Fore.RED + "3. Mail           " + Fore.GREEN    + "4. Browser     ")
+print(Fore.BLUE + "5. Bank           " + Fore.RED  + "6. About       ")
 
 choice = input(Fore.WHITE + "\n> ")
 
